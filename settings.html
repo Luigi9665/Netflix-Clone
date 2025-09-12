@@ -9,6 +9,7 @@
     <title>Settings</title>
   </head>
   <body>
+    <!-- NAVBAR -->
     <div class="bg-black p-1">
       <div class="container">
         <nav class="navbar navbar-expand-lg p-0 my-3">
@@ -40,7 +41,7 @@
               <i class="bi bi-search text-white fs-3 me-3"></i>
               <img src="./assets/img/kids_icon.png" alt="icon kids" style="max-width: 40px" />
               <i class="bi bi-bell-fill text-white fs-3 mx-3"></i>
-              <img src="./assets/img/avatar.png" alt="icon kids" style="max-width: 40px" />
+              <img src="./assets/img/avatar.png" alt="icon avatar" style="max-width: 40px" />
 
               <div class="dropdown">
                 <button class="dropdown-toggle btn text-white" role="button" data-bs-toggle="dropdown" aria-expanded="false"></button>
@@ -55,15 +56,117 @@
         </nav>
       </div>
     </div>
+
     <!-- MAIN -->
     <main style="max-width: 1200px" class="container mx-auto mt-5">
       <h1 class="text-left">Account</h1>
-      <div class="border-bottom border-netflix"></div>
+      <div class="border-bottom border-netflix my-2"></div>
       <div class="row my-4">
-        <div class="col-3"></div>
-        <div class="col-9"></div>
+        <div class="col-3">
+          <h4 class="mb-0 text-uppercase text-netflix">membership & billing</h4>
+          <button style="background-color: #e1e1e1" class="btn rounded-0 fs-8 border-none">Cancel Membership</button>
+        </div>
+        <div class="col-9">
+          <div class="d-flex justify-content-between my-2">
+            <p class="mb-1 fw-semibold">student@strive.school</p>
+            <a class="text-blu text-primary text-decoration-none" href="#">Change account email</a>
+          </div>
+          <div class="d-flex justify-content-between my-2">
+            <p class="mb-1 text-netflix">Password: **********</p>
+            <a class="text-blu text-primary text-decoration-none" href="#">Change password</a>
+          </div>
+          <div class="d-flex justify-content-between my-2">
+            <p class="mb-1">Phone: 321 044 1279</p>
+            <a class="text-blu text-primary text-decoration-none" href="#">Change phone number</a>
+          </div>
+          <div class="border-bottom border-netflix my-2"></div>
+          <div class="d-flex justify-content-between my-2">
+            <div>
+              <i class="bi bi-paypal"></i>
+              <p class="d-inline-block mb-1 fw-bold fst-italic">PayPal</p>
+              <p class="mb-1 d-inline-block fw-semibold">admin@strive.school</p>
+            </div>
+            <div>
+              <a class="text-blu text-primary text-decoration-none" href="#">Update payment info</a>
+              <a class="text-blu text-primary text-decoration-none d-block text-end" href="#">Billing details</a>
+            </div>
+          </div>
+          <div class="border-bottom border-netflix my-2"></div>
+          <div class="text-end">
+            <a class="text-blu text-primary text-decoration-none" href="#">Redeem gift card or promo code</a>
+            <a class="text-blu text-primary text-decoration-none d-block" href="#">Where to buy gift cards</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="border-bottom border-netflix my-2"></div>
+      <div class="row align-items-center mt-2">
+        <div class="col-3">
+          <h4 class="mb-0 text-uppercase text-netflix">plan details</h4>
+        </div>
+        <div class="col-9">
+          <div class="d-flex justify-content-between my-2">
+            <div class="d-flex align-items-center gap-2">
+              <p class="mb-1 fw-semibold">Premium</p>
+              <i class="bi bi-badge-hd"></i>
+            </div>
+            <a class="text-blu text-primary text-decoration-none" href="#">Change plan</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="border-bottom border-netflix my-2"></div>
+      <div class="row mt-2">
+        <div class="col-3">
+          <h4 class="mb-0 text-uppercase text-netflix">settings</h4>
+        </div>
+        <div class="col-9">
+          <div class="d-flex flex-column justify-content-center">
+            <a class="text-blu text-primary text-decoration-none my-1" href="#">Parental controls</a>
+            <a class="text-blu text-primary text-decoration-none my-1" href="#">Test participation</a>
+            <a class="text-blu text-primary text-decoration-none my-1" href="#">Manage download devices</a>
+            <a class="text-blu text-primary text-decoration-none my-1" href="#">Activate a device</a>
+            <a class="text-blu text-primary text-decoration-none my-1" href="#">Recent device streaming activity</a>
+            <a class="text-blu text-primary text-decoration-none my-1" href="#">Sign out of all devices</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="border-bottom border-netflix my-2"></div>
+      <div class="row mt-2">
+        <div class="col-3">
+          <h4 class="mb-0 text-uppercase text-netflix">my profile</h4>
+        </div>
+        <div class="col-9">
+          <div class="row">
+            <div class="col-3">
+              <div class="d-flex align-items-center mb-3">
+                <img src="./assets/img/avatar.png" style="width: 30px" alt="avatar" />
+                <p class="mb-0 ms-2 fw-semibold">Strive Student</p>
+              </div>
+              <div class="d-flex flex-column justify-content-center">
+                <a class="text-blu text-primary text-decoration-none my-1" href="#">Language</a>
+                <a class="text-blu text-primary text-decoration-none my-1" href="#">Playback settings</a>
+                <a class="text-blu text-primary text-decoration-none my-1" href="#">Subtitle appearance</a>
+              </div>
+            </div>
+            <div class="col text-center align-self-center">
+              <div class="d-flex flex-column justify-content-center">
+                <a class="text-blu text-primary text-decoration-none my-1" href="#">Viewing activity</a>
+                <a class="text-blu text-primary text-decoration-none my-1" href="#">Ratings</a>
+              </div>
+            </div>
+            <div class="col-3 text-end">
+              <div class="d-flex flex-column justify-content-center">
+                <a class="text-blu text-primary text-decoration-none my-1" href="#">Manage profiles</a>
+                <a class="text-blu text-primary text-decoration-none my-1" href="#">Add profile email</a>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
+
     <script src="./bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
