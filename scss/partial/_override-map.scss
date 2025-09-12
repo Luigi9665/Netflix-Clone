@@ -1,0 +1,30 @@
+$theme-colors-additional: (
+  "netflix": #9d9a9e,
+  "nero-chiaro": #141414,
+  "black": black,
+);
+
+$theme-colors: map-merge($theme-colors, $theme-colors-additional);
+
+// AGGIUNTA DI NUOVE MEDIA QUERY
+
+$grid-breakpoints-additional: (
+  3xl: 1600px,
+  4xl: 1800px,
+);
+
+$container-max-widths-additional: (
+  3xl: 1520px,
+  4xl: 1720px,
+);
+$grid-breakpoints: map-merge($grid-breakpoints, $grid-breakpoints-additional);
+$container-max-widths: map-merge($container-max-widths, $container-max-widths-additional);
+
+// AGGIUNTA DELLE CLASSI FS-7 TO FS-10 PER UN TEXT PIU' PICCOLO
+$font-sizes-additional: (
+  7: 15px,
+  8: 14px,
+  9: 12px,
+  10: 10px,
+);
+$font-sizes: map-merge($font-sizes, $font-sizes-additional);
