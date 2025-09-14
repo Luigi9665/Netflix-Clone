@@ -2,6 +2,7 @@ $theme-colors-additional: (
   "netflix": #9d9a9e,
   "nero-chiaro": #141414,
   "black": black,
+  "blu": rgb(0 67 255),
 );
 
 $theme-colors: map-merge($theme-colors, $theme-colors-additional);
